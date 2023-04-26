@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+    // margin: 0 !important;
+    // padding: 0 !important;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import "~bootstrap/scss/bootstrap";
+
+body {
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav_bar {
+    nav {
+        ul li {
+            a {
+                color: #fff !important;
+                padding: 0 20px !important;
+                font-size: 18px !important;
+            }
+        }      
+    }
+}
+
+.home-img {  
+    background-image: url('../img/Kalinchowk.JPG');
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+}
+
+.intro-name {
+    top: 208px;
+    p {
+        font-size: 3.5rem;
+    }
+}
+
+// .about {
+   
+// }
+
+.progress {
+    height: 6px;
+}
+
+.html {
+    width: 70%;
+    background-color: #04AA6D;
+}
+
+.css {
+    width: 60%;
+    background-color: orange;
+}
+
+.js {
+    width: 30%;
+    background-color: orangered;
+}
+
+.progress-box {
+    margin-top: 10px;
+    width: 300px;
+    .progress-bar {
+        margin-right: 100px;
+    }
+}
+
+.project-img {
+    height: 300px;
+    width: 100%;
+}
+
+.profile-img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background: #ccc;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    img {
+        margin: auto;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+.footer-icons {
+    ul {
+        list-style: none;
+        li {
+            display: inline;
+            line-height: 10px;
+            a {
+                text-decoration: none;
+                color: #fff !important;
+
+            }
+        }
+    }
+}
