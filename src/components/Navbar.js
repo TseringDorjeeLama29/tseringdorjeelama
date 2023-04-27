@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function Navbar() {
   return (
@@ -15,22 +16,22 @@ export default function Navbar() {
                               <div className="collapse navbar-collapse" id="navbarNavDropdown">
                                   <ul className="navbar-nav">
                                       <li className="nav-item">
-                                          <a className="nav-link active" aria-current="page" href="#">Home</a>
+                                          <Link className="nav-link active" aria-current="page" to="/">Home</Link>
                                       </li>                                   
                                       <li className="nav-item">
-                                          <a className="nav-link active" aria-current="page" href="#">About</a>
+                                          <a className="nav-link active" aria-current="page" href="#about">About</a>
                                       </li>                                   
                                       <li className="nav-item">
-                                          <a className="nav-link active" aria-current="page" href="#">Services</a>
+                                          <a className="nav-link active" aria-current="page" href="#services">Services</a>
                                       </li>                                   
                                       <li className="nav-item">
-                                          <a className="nav-link active" aria-current="page" href="#">Portfolio</a>
+                                          <a className="nav-link active" aria-current="page" href="#portfolio">Portfolio</a>
                                       </li>                                   
                                       <li className="nav-item">
-                                          <a className="nav-link active" aria-current="page" href="#">Experiences</a>
+                                          <Link className="nav-link active" aria-current="page" to="#">Experiences</Link>
                                       </li>                                   
                                       <li className="nav-item">
-                                          <a className="nav-link active" aria-current="page" href="#">Contact Us</a>
+                                          <a className="nav-link active" aria-current="page" href="#contact">Contact Us</a>
                                       </li>                                                 
                                   </ul>
                               </div>

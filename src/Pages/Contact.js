@@ -3,7 +3,7 @@ import React from 'react'
 export default function Contact() {
     return (
         <>
-            <div className="container">
+            <div className="container" id='contact'>
                 <div className="row">
                     <div className="col-lg-12 mb-3">
                         <h2>Got a project?</h2>
