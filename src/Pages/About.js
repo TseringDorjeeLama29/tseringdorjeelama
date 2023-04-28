@@ -5,9 +5,9 @@ export default function About() {
     <>
       <div className="container my-5  about" id='about'>
             <h2 className='text-start ms-3 my-3 text-lighter fw-bold'>Profile</h2>
-        <div className="row align-items-start gx-5 justify-content-between">
-          <div className="col-lg-8">
-            <div className="d-flex justify-content-between align-items-center">
+        <div className="row align-items-start justify-content-between">
+          <div className="col-lg-8 col-12">
+            <div className="d-flex flex-md-row flex-column justify-content-between align-items-center">
               <div className="profile-img mt-2">
                 <img src={require('../Assets/img/tsering.jpg')} className="" />
               </div>
@@ -17,8 +17,8 @@ export default function About() {
               </div>
             </div>
           </div>
-          <div className="col-lg-4">
-            <div className="row">
+          <div className="col-lg-4 col-12">
+            <div className="row px-5">
               <div className="col">
                 <div className='progress-box'>
                   <h5 className='progress-bar d-inline'>HTML</h5>
